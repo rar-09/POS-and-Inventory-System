@@ -1,0 +1,74 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    font-style: italic;
+    color: #403429;
+    background-color: #bbbbab;
+    text-align: center;
+}
+.logo h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+.background {
+    width: 100%;
+    margin: 0px;
+    pad: 0px;
+    height: 100vh;
+    background-image: linear-gradient(rgba(80, 80, 80, 0.75),rgba(0,0,0,0.75)), url(colorful-pebbles.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.form-box {
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #b5b5b1;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+.form-box h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    position: relative;
+    color: #555545;
+}
+.input-field {
+    background: #938b81;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+input {
+    font-size: 15px;
+    width: 100%;
+    background: transparent;
+    padding: 18px 15px;
+}
+::placeholder {
+    color: lightgray;
+}
+.button-field {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.button-field button {
+    flex-basis: 40%;
+    background: #555545;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.input-group {
+    height: 150px;
+}

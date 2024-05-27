@@ -1,0 +1,69 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    font-style: italic;
+    color: #403429;
+    background-color: #bbbbab;
+    text-align: center;
+}
+.logo h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+.background {
+    width: 100%;
+    margin: 0px;
+    pad: 0px;
+    height: 100vh;
+    background-image: linear-gradient(rgba(80, 80, 80, 0.75),rgba(0,0,0,0.75)), url(colorful-pebbles.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.form-box {
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #b5b5b1;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+.form-box h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    position: relative;
+    color: #555545;
+}
+.form-box h3 {
+    position: relative;
+    color: #555545;
+}
+.button-field {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.button-field button {
+    flex-basis: 40%;
+    background: #555545;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#yes {
+    margin-right: 30px;
+    background-color: rgb(62, 97, 62);
+    font-size: large;
+}
+#no {
+    background-color: rgb(114, 64, 64);
+    font-size: large;
+}

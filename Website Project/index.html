@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evan's Stone Garden</title>
+    <link rel="stylesheet" href="homepagestyles.css">
+</head>
+<body>
+    <div class="background">
+        <div class="logo">
+            <h1>Evan's Stone Garden</h1>
+        </div>
+        <div class="form-box">
+            <h1>Log In</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-field">
+                        <input type="text" placeholder="Username" id="username">
+                    </div>
+                    <div class="input-field">
+                        <input type="password" placeholder="Password" id="password">
+                    </div>
+                </div>
+                <div class="button-field">
+                    <button type="button" onclick="validateLogin()">Log In</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function validateLogin() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            // You can replace this condition with your own validation logic
+            if (username === "Azakuza" && password === "011803") {
+                window.location.href = "mainpage.html"; // Redirect to another HTML page
+            } else {
+                alert("Invalid username or password. Please try again.");
+            }
+        }
+    </script>
+
+</body>
+</html>

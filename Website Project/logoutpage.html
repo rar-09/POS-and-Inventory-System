@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evan's Stone Garden </title>
+    <link rel="stylesheet" href="logoutpagestyles.css">
+</head>
+<body>
+    <div class="background">
+        <div class="logo">
+            <h1>Evan's Stone Garden</h1>
+        </div>
+        <div class="form-box">
+            <h1>Log Out</h1>
+            <h3>Do you want to Log-out?</h3>
+            <div class="button-field">
+                <button type="button" id="yes">Yes</button>
+                <button type="button" id="no">No</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Function to redirect to login page
+        function redirectToLogin() {
+            window.location.href = "index.html";
+        }
+
+        // Function to redirect to main page
+        function redirectToMainPage() {
+            window.location.href = "mainpage.html";
+        }
+
+        // Add event listeners to the buttons
+        document.getElementById("yes").addEventListener("click", redirectToLogin);
+        document.getElementById("no").addEventListener("click", redirectToMainPage);
+
+    </script>
+</body>
+</html>
